@@ -23,6 +23,7 @@ def compute_gravitaional_force(m1:float, m2:float , r:float) -> float:
     @exception:
         TypeError/ValueError
     '''
+
     if type(m1) != int and type(m1) != float:
         raise TypeError('Bad type of mass of object 1')
     if type(m2) != int and type(m2) != float:
@@ -53,3 +54,7 @@ def main() -> None:
         sys.exit(-1)
     print(f'Force of attraction is:{F} Newton')
     sys.exit(-1)
+
+
+compute_gravitaional_force('s',22,22)
+main()
