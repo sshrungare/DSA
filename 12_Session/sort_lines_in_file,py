@@ -1,0 +1,6 @@
+import sys 
+
+file_path = 'sample.txt'
+try: 
+    f_handle = open(file_path,'r')
+    
